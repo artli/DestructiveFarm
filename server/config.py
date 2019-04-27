@@ -1,5 +1,29 @@
 TEAM_NUMBERS = {
-    
+    # "saarsec": 0,
+    # "Bushwhackers": 0,
+    # "Tower of Hanoi": 0,
+    # "[SPbCTF] LC↯BC": 0,
+    # "Shadow Servants": 0,
+    # "bacaro_tour": 0,
+    # "Gleitkommafreunde Bonn": 0,
+    # "VoidHack": 0,
+    # "STT": 0,
+    # "[SPbCTF] Kappa": 0,
+    # "FAUST": 0,
+    # "ENOFLAG": 0,
+    # "Lights Out": 0,
+    # "ОМСКИЙ АНДЕГРАУНД И КУБОК ПЕТУХА": 0,
+    # "Kamneezhka": 0,
+    # "[SPbCTF] fargate": 0,
+    # "kks_wund3rw4ffl3_team": 0,
+    # "SiBears": 0,
+    # "Corrupted Reflection": 0,
+    # "SwissMadeSecurity": 0,
+    # "ZenHack": 0,
+    # "B3vil (ex. 0x1dea)": 0,
+    # "Omaviat": 0,
+    # "SharLike": 0,
+    # "Honeypot": 0,
 }
 TEAMS = {'#{}: {}'.format(number, name): '10.60.{}.1'.format(number)
          for name, number in TEAM_NUMBERS.items()}
