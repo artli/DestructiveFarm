@@ -24,6 +24,9 @@ TEAM_NUMBERS = {
     # "Omaviat": 0,
     # "SharLike": 0,
     # "Honeypot": 0,
+    # "Pixels": 0,
+    # "Guest1": 0,
+    # "Guest2": 0,
 }
 TEAMS = {'#{}: {}'.format(number, name): '10.60.{}.1'.format(number)
          for name, number in TEAM_NUMBERS.items()}
