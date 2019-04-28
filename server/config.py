@@ -1,38 +1,38 @@
 TEAM_NUMBERS = {
-    # "saarsec": 0,
-    # "Bushwhackers": 0,
-    # "Tower of Hanoi": 0,
-    # "[SPbCTF] LC↯BC": 0,
-    # "Shadow Servants": 0,
-    # "bacaro_tour": 0,
-    # "Gleitkommafreunde Bonn": 0,
-    # "VoidHack": 0,
-    # "STT": 0,
-    # "[SPbCTF] Kappa": 0,
-    # "FAUST": 0,
-    # "ENOFLAG": 0,
-    # "Lights Out": 0,
-    # "ОМСКИЙ АНДЕГРАУНД И КУБОК ПЕТУХА": 0,
-    # "Kamneezhka": 0,
-    # "[SPbCTF] fargate": 0,
-    # "kks_wund3rw4ffl3_team": 0,
-    # "SiBears": 0,
-    # "Corrupted Reflection": 0,
-    # "SwissMadeSecurity": 0,
-    # "ZenHack": 0,
-    # "B3vil (ex. 0x1dea)": 0,
-    # "Omaviat": 0,
-    # "SharLike": 0,
-    # "Honeypot": 0,
-    # "Pixels": 0,
-    # "Guest1": 0,
-    # "Guest2": 0,
+    "Bushwhackers": 1,
+    "FAUST": 2,
+    "[SPbCTF] LC↯BC": 3,
+    "VoidHack": 4,
+    "Shadow Servants": 5,
+    "B3vil (ex. 0x1dea)": 6,
+    "Lights Out": 7,
+    "bacaro_tour": 8,
+    "saarsec": 9,
+    "ОМСКИЙ АНДЕГРАУНД И КУБОК ПЕТУХА": 10,
+    "Kamneezhka": 11,
+    "Corrupted Reflection": 12,
+    "kks_wund3rw4ffl3_team": 13,
+    "[SPbCTF] fargate": 14,
+    "ZenHack": 15,
+    "SwissMadeSecurity": 16,
+    "SiBears": 17,
+    "Honeypot": 18,
+    "SharLike": 19,
+    "Omaviat": 20,
+    "10.60.21": 21,
+    "10.60.22": 22,
+    "Pixels": 23,
+    "ENOFLAG": 24,
+    "Gleitkommafreunde Bonn": 25,
+    "[SPbCTF] Kappa": 26,
+    "Tower of Hanoi": 27,
+    "STT": 28,
 }
 TEAMS = {'#{}: {}'.format(number, name): '10.60.{}.1'.format(number)
          for name, number in TEAM_NUMBERS.items()}
-unknown_numbers = set(range(1, 30)) - set(TEAM_NUMBERS.values())
-for number in unknown_numbers:
-    TEAMS['#{}: <UNK>'.format(number)] = '10.60.{}.1'.format(number)
+# unknown_numbers = set(range(1, 30)) - set(TEAM_NUMBERS.values())
+# for number in unknown_numbers:
+    # TEAMS['#{}: <UNK>'.format(number)] = '10.60.{}.1'.format(number)
 
 CONFIG = {
     # Don't forget to remove the old database (flags.sqlite) before each competition.
