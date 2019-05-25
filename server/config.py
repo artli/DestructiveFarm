@@ -5,7 +5,7 @@ TEAM_NUMBERS = {
     for i, name in enumerate(TEAM_NAMES, start=1)
     if not name.startswith('!@')
 }
-TEAMS = {'#{}: {}'.format(number, name): '10.65.{}.1'.format(number)
+TEAMS = {'#{}: {}'.format(number, name): '10.66.{}.1'.format(number)
          for name, number in TEAM_NUMBERS.items()}
 # unknown_numbers = set(range(1, 30)) - set(TEAM_NUMBERS.values())
 # for number in unknown_numbers:
