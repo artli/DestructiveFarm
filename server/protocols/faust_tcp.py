@@ -8,7 +8,7 @@ RESPONSES = {
     FlagStatus.QUEUED: ['timeout', 'game not started', 'try again later', 'game over', 'is not up',
                         'no such flag'],
     FlagStatus.ACCEPTED: ['accepted', 'congrat'],
-    FlagStatus.REJECTED: ['bad', 'wrong', 'expired', 'unknown', 'your own',
+    FlagStatus.REJECTED: ['you for your', 'bad', 'wrong', 'expired', 'unknown', 'your own',
                           'too old', 'not in database', 'already submitted', 'invalid flag', 'didn\'t even start'],
 }
 # The RuCTF checksystem adds a signature to all correct flags. It returns
