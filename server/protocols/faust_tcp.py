@@ -9,7 +9,7 @@ RESPONSES = {
                         'no such flag'],
     FlagStatus.ACCEPTED: ['accepted', 'congrat'],
     FlagStatus.REJECTED: ['bad', 'wrong', 'expired', 'unknown', 'your own',
-                          'too old', 'not in database', 'already submitted', 'invalid flag'],
+                          'too old', 'not in database', 'already submitted', 'invalid flag', 'didn\'t even start'],
 }
 # The RuCTF checksystem adds a signature to all correct flags. It returns
 # "invalid flag" verdict if the signature is invalid and "no such flag" verdict if
