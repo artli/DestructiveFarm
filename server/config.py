@@ -23,7 +23,7 @@ CONFIG = {
     # The protocol must be a module in protocols/ directory.
     # RuCTF(E) and VolgaCTF checksystems are supported out-of-the-box.
 
-    'SYSTEM_PROTOCOL': 'ructf_tcp',
+    'SYSTEM_PROTOCOL': 'faust_tcp',
     'SYSTEM_HOST': 'submission.faustctf.net',
     'SYSTEM_PORT': 666,
 
